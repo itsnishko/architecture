@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="w-Brfm-_w0RusL2d338c">
-    <mxGraphModel>
+    <mxGraphModel dx="2006" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oITvzhVJD6RxJB8dK1RE-1" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="81" y="132" width="837" height="521" as="geometry" />
+        </mxCell>
+        <mxCell id="oITvzhVJD6RxJB8dK1RE-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+          <mxGeometry x="88" y="146" width="67" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oITvzhVJD6RxJB8dK1RE-8" value="master-subnet" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="515" y="163" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oITvzhVJD6RxJB8dK1RE-9" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" vertex="1" parent="1">
+          <mxGeometry x="522" y="174" width="48.43" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="oITvzhVJD6RxJB8dK1RE-10" value="" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="518" y="384" width="324" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="oITvzhVJD6RxJB8dK1RE-11" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" vertex="1" parent="1">
+          <mxGeometry x="525" y="391" width="48.43" height="29" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
