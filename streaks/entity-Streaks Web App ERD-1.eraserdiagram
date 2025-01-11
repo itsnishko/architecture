@@ -1,0 +1,47 @@
+entity-relationship-diagram
+
+title Streaks Web App ERD
+
+// define tables
+action [icon: activity, color: green]{
+  "id" string pk
+  "name" string
+  "description" string
+  "created-on" timestamp
+}
+
+record [icon: clipboard, color: orange]{
+  "id" string pk
+  "action-id" string
+  "metric" string
+  "value" string
+  "recorded" timestamp
+}
+
+streak [icon: trending-up, color: red]{
+  id string pk
+  actionId string
+  startDate date
+  endDate date
+  length int
+}
+
+values [icon: database, color: purple]{
+  id string pk
+  recordId string
+  fieldName string
+  dataType string
+}
+
+field [icon: bar-chart, color: blue]{
+  id string pk
+  fieldValueId string
+  value string
+}
+
+// define relationships
+records.actionId > actions.id
+streaks.actionId > actions.id
+field.recordId > records.id
+values.fieldValueId > field.id
+
